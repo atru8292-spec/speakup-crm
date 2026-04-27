@@ -13,8 +13,8 @@ export default function Sidebar() {
   return (
     <aside className="fixed left-0 top-0 h-screen w-56 bg-dark-800 border-r border-dark-700 flex flex-col z-20">
       <div className="px-5 pt-5 pb-4 border-b border-dark-700">
-        <div className="text-xl font-bold text-accent tracking-tight">SpeakUp</div>
-        <div className="text-xs text-gray-500 mt-0.5">CRM · Панель Ани</div>
+        <div className="text-xl font-bold text-accent tracking-tight">SunShine</div>
+        <div className="text-xs text-gray-500 mt-0.5">CRM · Панель</div>
       </div>
       <nav className="mt-3 flex flex-col gap-0.5">
         {nav.map((n) => {
